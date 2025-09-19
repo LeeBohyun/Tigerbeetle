@@ -3,8 +3,8 @@
 - https://github.com/tigerbeetle/tigerbeetle
 
 ### Install zig
+-  check latest at https://ziglang.org/download/
 ``bash
-# Example for x86_64; check latest at https://ziglang.org/download/
 cd ~
 wget https://ziglang.org/download/0.13.0/zig-linux-x86_64-0.13.0.tar.xz
 tar xf zig-linux-x86_64-0.13.0.tar.xz
