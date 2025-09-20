@@ -53,6 +53,6 @@ sudo blkdiscard /dev/nvme1n1
 # Run benchmark
 ./tigerbeetle benchmark \
   --cache-grid=32GiB \
-  --transfer-count=400000 \
+  --transfer-count=400000  --account-count=100000\
   --file=/dev/nvme1n1
 ```
