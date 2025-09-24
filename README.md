@@ -79,7 +79,7 @@ The benchmark measures per-request latency and throughput, prints percentile lat
 4. The validate_accounts stage regenerates the same IDs and checks that they match the ones stored.
  
 
-### Step 1. create_accounts (isnerts)
+### Step 1. create_accounts (inserts)
 - ``insert_account*(tb.Account)``
 ```bash
 for i in 1..account_count:
